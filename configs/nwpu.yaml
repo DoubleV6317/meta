@@ -1,0 +1,19 @@
+# ------ root_path/dataset_name ------
+root_path: /mnt/data
+
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# ------ Hyperparamters ------
+init_beta: 30
+init_alpha: 1
+T: 1
+# ------ Basic Config ------
+dataset: 'nwpu'
+shots: 5
+backbone: 'ViT-L/14'
+lr: 0.0001
+augment_epoch: 5
+train_epoch: 5
